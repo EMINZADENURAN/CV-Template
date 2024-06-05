@@ -1,0 +1,540 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+body > header {
+  background-color: #fff;
+  box-shadow: 0 6px 15px rgba(206, 212, 218, 0.3);
+}
+body > header > nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+div.logo > img {
+  width: 70px;
+}
+div.menu > a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+  padding: 8px 16px;
+  font-weight: bold;
+}
+
+div.menu > a.orange {
+  color: #ff7a57;
+}
+div.menu > a.orangebut {
+  color: white;
+  background-color: #ff7a57;
+  border-radius: 26px;
+}
+div.headersection {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+div.headersection > div.header-title {
+  align-items: center;
+  flex: 1;
+  h1 {
+    font-size: 64px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+}
+div.headerbut > a.orangebut {
+  text-decoration: none;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 26px;
+  background-color: #ff7a57;
+}
+div.headerbut > a.orangebut:hover {
+  background-color: #ce5030;
+}
+div.headerbut {
+  display: flex;
+  gap: 8px;
+  padding: 16px 0px;
+}
+div.headerbut > a.blackbut {
+  background-color: #343a40;
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 26px;
+}
+div.headerbut > a.blackbut:hover {
+  background-color: #1a1a1a;
+}
+div.headericon {
+  display: flex;
+  gap: 8px;
+}
+div.headericon > i {
+  font-size: 32px;
+  color: #ff7a57;
+}
+div.headerimg {
+  flex: 1;
+}
+div.headerimg > img {
+  width: 100%;
+}
+div.widget {
+  margin: 0 auto;
+  color: #343a40;
+  max-width: 690px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  border-radius: 50px;
+  width: 100%;
+  border: 1px solid #dee2e6;
+  padding: 20px 0px;
+  margin-top: -50px;
+  background-color: #fff;
+  box-shadow: 0 0 30px rgba(173, 181, 189, 0.4);
+}
+div.widget > div.widget-item {
+  text-align: center;
+  border-right: 1px solid #dee2e6;
+  padding: 0px 16px;
+}
+div.widget > div.widget-items {
+  text-align: center;
+  padding: 0px 16px;
+}
+section.cvpage {
+  padding: 64px;
+}
+section.cvpage > div.container > div.cvsec > div.cvfoto > img {
+  width: 250px;
+  background-color: #dee2e6;
+  border: 1px double;
+}
+section.cvpage > div.container > div.cvsec > div.cvtitle {
+  color: #343a40;
+  p {
+    font-size: 16px;
+    padding-bottom: 32px;
+  }
+}
+section.cvpage > div.container > div.cvsec > div.cvtitle > a.dowbut {
+  background-color: #ff7a57;
+  color: #dee2e6;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 26px;
+}
+div.cvsec {
+  display: flex;
+  gap: 64px;
+}
+section.service > div.container > div.servicepage > div.servicetitle {
+  text-align: center;
+  color: #343a40;
+
+  h2 {
+    font-size: 32px;
+  }
+  p {
+    font-size: 18px;
+    padding-top: 20px;
+  }
+}
+div.servicecard {
+  display: flex;
+  gap: 32px;
+  padding-top: 64px;
+}
+div.servicecard > div.servicecards {
+  background-color: #f7f7f7;
+  padding: 55px 0px;
+  text-align: center;
+  box-shadow: 2px 3px 10px rgba(206, 212, 218, 0.3);
+  border: 1px solid #dee2e6;
+  h2 {
+    color: #6c757d;
+    font-weight: 500;
+  }
+}
+div.servicecard > div.servicecards:hover {
+  background-color: #ff7a57;
+  transition: all 0.3s;
+  i {
+    color: #f7f7f7;
+  }
+  h2 {
+    color: #f7f7f7;
+  }
+}
+
+div.servicecard > div.servicecards > i {
+  font-size: 40px;
+  padding: 0px 90px;
+  color: #ff7a57;
+}
+section.skills > div.container > div.skillssec {
+  padding-top: 64px;
+}
+section.skills > div.container > div.skillssec > div.skillstitle {
+  text-align: center;
+  h5 {
+    font-size: 18px;
+    color: #343a40;
+  }
+  h2 {
+    font-size: 32px;
+    color: #343a40;
+  }
+  p {
+    padding-top: 20px;
+    color: #343a40;
+  }
+}
+section.skills > div.container > div.skillssec > div.skillsbar {
+  padding-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+}
+section.skills > div.container > div.skillssec > div.skillsbar > div.bar {
+  padding: 20px 0px;
+  h3 {
+    font-size: 18px;
+    color: #343a40;
+    padding-bottom: 8px;
+  }
+}
+section.skills
+  > div.container
+  > div.skillssec
+  > div.skillsbar
+  > div.bar
+  > div.greybar {
+  background-color: #f7f7f7;
+  height: 5px;
+  border: #f7f7f7 1px solid;
+  border-radius: 8px;
+}
+section.skills
+  > div.container
+  > div.skillssec
+  > div.skillsbar
+  > div.bar
+  > div.greybar
+  > div.orangebar1 {
+  background-color: #ff7a57;
+  height: 5px;
+  border: #ff7a57 1px solid;
+  border-radius: 8px;
+  width: 80%;
+}
+section.skills
+  > div.container
+  > div.skillssec
+  > div.skillsbar
+  > div.bar
+  > div.greybar
+  > div.orangebar2 {
+  background-color: #ff7a57;
+  height: 5px;
+  border: #ff7a57 1px solid;
+  border-radius: 8px;
+  width: 85%;
+}
+section.skills
+  > div.container
+  > div.skillssec
+  > div.skillsbar
+  > div.bar
+  > div.greybar
+  > div.orangebar3 {
+  background-color: #ff7a57;
+  height: 5px;
+  border: #ff7a57 1px solid;
+  border-radius: 8px;
+  width: 70%;
+}
+section.skills
+  > div.container
+  > div.skillssec
+  > div.skillsbar
+  > div.bar
+  > div.greybar
+  > div.orangebar4 {
+  background-color: #ff7a57;
+  height: 5px;
+  border: #ff7a57 1px solid;
+  border-radius: 8px;
+  width: 90%;
+}
+section.portfolio > div.container > div.portfoliotitle {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  text-align: center;
+  h5 {
+    font-size: 18px;
+    color: #343a40;
+  }
+  h2 {
+    font-size: 24px;
+    color: #343a40;
+  }
+  p {
+    font-size: 16px;
+    color: #343a40;
+    padding-top: 20px;
+  }
+}
+section.portfolio > div.container > div.portfoliogale {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  justify-content: center;
+}
+section.portfolio > div.container > div.portfoliogale > div.foto {
+  padding-top: 40px;
+  width: 400px;
+  position: relative;
+  overflow: hidden;
+}
+section.portfolio
+  > div.container
+  > div.portfoliogale
+  > div.foto:hover
+  .fotohovertitle {
+  top: -0;
+}
+
+section.portfolio
+  > div.container
+  > div.portfoliogale
+  > div.foto
+  > div.fotohovertitle {
+  color: white;
+  background-color: #ff795785;
+  position: absolute;
+  top: -100%;
+  height: 200px;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: all 0.4s;
+}
+
+section.portfolio > div.container > div.portfoliogale > div.foto > img {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+section.testmonial > div.container > div.testmonial > div.testmonialtitle {
+  text-align: center;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  h5 {
+    font-size: 16px;
+    color: #343a40;
+  }
+  h2 {
+    font-size: 26px;
+    color: #343a40;
+  }
+  p {
+    color: #343a40;
+    padding-top: 16px;
+  }
+}
+section.testmonial > div.container > div.testmonial > div.testmonialcard {
+  box-shadow: 2px 3px 10px rgba(206, 212, 218, 0.3);
+  border: solid #f7f7f8;
+}
+section.testmonial
+  > div.container
+  > div.testmonial
+  > div.testmonialcard
+  > div.testmonialcarditem {
+  text-align: center;
+  justify-content: center;
+  padding: 16px;
+  p {
+    font-size: 18px;
+    color: #343a40;
+    padding-top: 16px;
+  }
+  h2 {
+    font-size: 24px;
+    color: #343a40;
+    padding-top: 16px;
+  }
+}
+section.testmonial
+  > div.container
+  > div.testmonial
+  > div.testmonialcard
+  > div.testmonialcarditem
+  > img {
+  width: 100px;
+  border-radius: 50%;
+}
+section.myblog > div.container > div.myblogtitle {
+  text-align: center;
+  color: #343a40;
+  padding-top: 64px;
+  h5 {
+    font-size: 16px;
+  }
+  h2 {
+    font-size: 26px;
+  }
+  p {
+    padding-top: 16px;
+    padding-bottom: 64px;
+  }
+}
+section.myblog > div.container > div.myblogcard {
+  display: flex;
+  gap: 32px;
+}
+section.myblog > div.container > div.myblogcard > div.blogcards {
+  box-shadow: 2px 3px 10px rgba(206, 212, 218);
+}
+section.myblog
+  > div.container
+  > div.myblogcard
+  > div.blogcards
+  > div.blogcardstitle {
+  padding: 16px;
+  span {
+    color: #6c757d;
+  }
+  i {
+    color: #6c757d;
+    padding-left: 8px;
+  }
+  h2 {
+    font-weight: 400;
+    color: #343a40;
+    padding: 16px;
+  }
+  a.grey {
+    color: #6c757d;
+    padding: 16px;
+    text-decoration: none;
+  }
+  p {
+    color: #1a1a1a;
+    padding: 16px;
+  }
+  a.orange {
+    color: #ff8c00;
+    padding: 16px;
+    text-decoration: none;
+  }
+}
+
+section.myblog > div.container > div.myblogcard > div.blogcards > img {
+  width: 100%;
+  height: 200px;
+}
+section.hireme {
+  padding-top: 64px;
+}
+section.hireme > div.container > div.hiremeline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ff7a57;
+  padding: 32px;
+  color: #dee2e6;
+  a {
+    text-decoration: none;
+    color: black;
+    background-color: #dee2e6;
+    padding: 16px 32px;
+    border-radius: 32px;
+  }
+}
+section.contact > div.container > div.contact > div.contacttitle {
+  text-align: center;
+  padding-top: 64px;
+  h5 {
+    font-size: 16px;
+    color: #343a40;
+  }
+  h2 {
+    font-size: 26px;
+    color: #343a40;
+  }
+  p {
+    color: #343a40;
+    padding: 16px 0px;
+  }
+}
+section.contact > div.container > div.contact > div.contactinput {
+  display: flex;
+  flex-direction: row;
+  h5 {
+    font-size: 16px;
+    color: #343a40;
+  }
+  h2{
+    font-size: 26px;
+    color: #343a40;
+  }
+}
+section.contact > div.container > div.contact > div.contactinput > div.inputtype {
+  padding: 16px 0px;
+  display: grid;
+  width: 50%;
+  gap: 16px;
+  a{
+    text-decoration: none;
+    color: white;
+    background-color:#ff7a57;
+    padding: 14px 32px;
+    text-align: center;
+    border-radius: 26px;
+  }
+  a:hover{
+    background-color: #ff5328;
+  }
+}
+
+section.contact > div.container > div.contact > div.contactinput > div.inputtype > input{
+  padding: 9px 4px;
+  border: 1px solid #ced4da;
+  color: #6c757d;
+  font-size: 16px;
+}
+div.map {
+  display: flex;
+  justify-content: center;
+  padding: 16px 0px;
+}
+.container {
+  max-width: 100%;
+  margin: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 960px;
+  }
+}
